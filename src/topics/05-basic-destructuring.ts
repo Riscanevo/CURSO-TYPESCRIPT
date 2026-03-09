@@ -22,11 +22,16 @@ const audioPlayer: AudioPlayer = {
     }
 }
 
+
 const {} = audioPlayer;
 
 
 
-console.log('song: ', audioPlayer.song);
-console.log('author: ', audioPlayer.details.author);
-console.log('year: ', audioPlayer.details.year);
+//console.log('song: ', audioPlayer.song);
+//console.log('author: ', audioPlayer.details.author);
+//console.log('year: ', audioPlayer.details.year);
+
+const dbz:string [] = ['Goku','Vegeta','Trunks'];
+
+console.log('dbz: ',dbz[2]); 
 export{};
